@@ -4,7 +4,7 @@ const fs = require('fs');
 (async () => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  await page.goto('https://worldathletics.org/news/discipline/long-jump');
+  await page.goto('https://worldathletics.org/news/discipline/triple-jump');
 
   // Define a function to scroll to the bottom of the page and click the "LOAD MORE" button three times
   async function scrollAndTripleClickLoadMore() {
