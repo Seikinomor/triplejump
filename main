@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Run 1.js script
+node 1.js
+
+# Add changes to git
+git add index.html
+
+# Commit changes
+git commit -m "Automated update of index.html"
+
+# Push changes to main branch
+git push origin main
