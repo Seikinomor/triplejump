@@ -4,3 +4,7 @@
     "puppeteer": "^22.6.5"
   }
 }
+"scripts": {
+  "build": "node build-script.js"
+}
+
